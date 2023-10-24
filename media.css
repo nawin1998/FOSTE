@@ -1,0 +1,350 @@
+@media only screen and (min-width:200px) and (max-width:991px){
+    .header{
+        height: 80px;
+        width: 100%;
+        background-color: #f4f1c3;
+    }
+   .checkbtn{
+    left: 85%;
+   } 
+   .navbar ul{
+    height: 36.8rem;
+   }
+   .navbar li{
+    position: relative;
+    top: 130px;
+    }
+    
+    /* home */
+    .slidedata{
+        display: block;
+        height: 100px;
+        width: 60%;
+        top: 23%;
+        left: 5%;
+    }
+    .leftes{
+        height: 200px;
+        width: 400px;
+        margin-top: 126px;
+    }
+    .leftes h1{
+        font-size: 20px;
+        color: var(--first-col);
+        margin-left: 7px;
+    
+    }
+    .leftes p{
+        margin-left: 7px;
+        margin-top: 15px;
+        font-size: var(--p-font);
+    }
+    .btns1{
+        width: 350px;
+        height: 70px;
+        display: flex;
+    }
+    .leftes .btn1{
+       font-size: 10px;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 50px;
+       width: 130px;
+    }
+    .leftes .btn2{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 50px;
+        width: 140px;
+    }
+    .rightes img{
+        height: 300px;
+        width: 350px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    
+    .slider .arrows-left{
+        padding: 15px;
+        left: 10%;
+        top: 46%;
+    }
+    .slider .arrows-right{
+        padding: 15px;
+        top: 23.2rem;
+        right: 8%;
+        
+    }
+    .homedown{
+        display: none;
+    }
+       /*  what  */
+       .What{
+        margin-top: 50px;
+        height: 78rem;
+    }
+       .whates1 h1{
+        font-size: 24px;
+       }
+       .whates1 hr{
+        display: none;
+       }
+       .whatcard{
+        display: block;
+        height: 300px;
+        width: 330px;
+        
+       }
+       .wcard1{
+        height: 100%;
+        width: 100%;
+        margin-top: 60px;
+       }
+       .wcard2{
+        height: 100%;
+        width: 100%;
+        margin-top: 60px;
+       }
+       /* about */
+       .abou{
+            flex-wrap: wrap-reverse;
+            gap: 0.5rem;
+            padding: 0 2rem;
+       }
+       .aboucont h1{
+            font-size: 28px;
+        }
+        .aboucont p{
+            font-size: 21px;
+            margin-top: 40px;
+        }
+        .abouimg{
+            height: 300px;
+            width: 550px;
+        }
+        /* port */
+        
+        .whates3 h1{
+            font-size: 28px;
+            margin-left: 70px;
+        }
+        .whates3 hr{
+            display: none;
+        }
+        .boxes{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-top: 50px;
+            overflow: hidden;
+        }
+        .box1 img{
+            height: 300px;
+            width: 390px;
+        }
+        .box2 img{
+            height: 300px;
+            width: 390px;
+        }
+        .box3 img{
+            height: 300px;
+            width: 390px;
+        }
+        .box4 img{
+            height: 300px;
+            width: 390px;
+        }
+        .box5 img{
+            height: 300px;
+            width: 390px;
+        }
+        .box6 img{
+            height: 300px;
+            width: 390px;
+        }
+        .boxed{
+            display: none;
+        }
+        .box1:hover .boxed1{
+            display: none;
+        }
+        .box2:hover .boxed2{
+            display: none;
+        }
+        .box3:hover .boxed3{
+            display: none;
+        }
+        .box4:hover .boxed4{
+            display: none;
+        }
+        .box5:hover .boxed5{
+            display: none;
+        }
+        .box6:hover .boxed6{
+            display: none;
+        }
+        /* business */
+        .business{
+            margin-left: 0px;
+        }
+        .buss{
+            display: block;
+            height: 400px;
+            width: 360px;
+            margin-left: 10px;
+            padding: 6px 14px;
+        }
+        .buss h1{
+            width: 18rem;
+            font-size: 20px;
+            margin-left: 40px;
+            margin-top: 80px;
+        }
+        .buss p{
+            width: 100%;
+            text-align: center;
+            margin-left: 10px;
+            margin-top: 30px;
+        }
+        .buss .btn4{
+            margin-left: 90px;
+        }
+        /* consult */
+        .whates4 h1{
+            margin-left: 70px;
+            font-size: 24px;
+        }
+        .whates4 hr{
+            display: none;
+        }
+        .consulting{
+            flex-wrap: wrap-reverse;
+            padding: 20px 20px;
+        }
+        .consul1 p{
+            width: 350px;
+        }
+        .consul2 img{
+            height: 350px;
+            width: 350px;
+            margin-top: 30px;
+            
+        }
+        /* clients */
+        .client{
+            height: 94rem;
+            overflow: hidden;
+            
+        }
+        .whates5 hr{
+            display: none;
+        }
+        .whates5 h1{
+            position: relative;
+            font-size: 28px;
+            margin-left: 20px;
+            margin-top: 60px;
+            
+        }
+        .containers .maincard .cards{
+            display: block;
+            width: 100%;
+            margin: 0 40px;
+            margin-top: -200px;
+        }
+        .containers .maincard .cards .card{
+            height: 200px;
+            width: 100%;
+            margin-top: 210px;
+        }
+        .contentes{
+            display: block;
+        }
+        .content{
+            position: relative;
+            height: 100px;
+            width: 80%;
+        }
+        .content p{
+            width: 130%;
+            border: 2px solid black;
+            font-size: 15px;
+        }
+        .content1{
+            margin-top: 200px;
+        }
+        .buttones{
+            top: 18rem;
+            left: 7rem;
+        }
+        /* form */
+        .callcon h1{
+            margin-top: 20px;
+            font-size: 32px;
+            text-align: center;
+        }
+        .callcon p{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 15px;
+        
+        }
+        .callform{
+            height: 500px;
+            width: 300px;
+            margin-left: 2px;
+        }
+        form input{
+            height: 70px;
+            width: 20rem;
+        }
+        .area{
+            height: 70px;
+            width: 20rem; 
+        }
+        .btn6{
+            margin-left: 120px;
+        }
+        /* footed */
+        .foot{
+            height: 66rem;
+            background-color: var(--first-col);
+        }
+        .footed{
+            display: block;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .footes{
+            display: block;
+        }
+        .footing3{
+            display: block;
+        }
+        .footed .footing1{
+            width: 19rem;
+        }
+        .footed .footing1 h3{
+            margin-left: 30px;
+        }
+        .footed .footing1 p{
+            color: #ffff;
+            margin-left: 30px;
+            width: 100%;
+        }
+        .footed .footing2{
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+        .footed .footing3 .foo1 h3{
+            margin-left: 30px;
+        }
+        .foo2 input{
+            width: 20rem;
+        }
+        .foo2 .btn7{
+            margin-left: 10px;
+        }
+        
+
+}
